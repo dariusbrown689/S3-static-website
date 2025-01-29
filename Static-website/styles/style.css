@@ -10,7 +10,7 @@ header {
 
 html, body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: rgb(92, 202, 92);
+    background-color: skyblue;
     display: flex;
     flex-direction: column;
 }   
@@ -45,6 +45,44 @@ html, body {
     
     font-weight: bold;
     font-weight: 750;
-    text-decoration: underline;
     text-decoration-thickness: 2px;
 }
+.bold-underline {
+    
+    font-weight: bold;
+    font-weight: 750;
+    text-decoration-thickness: 2px;
+    text-decoration: underline;
+}
+.github-repo-link {
+    color: #2ea44f; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .github-repo-link:hover {
+    text-decoration: underline;
+  }
+
+  /*navigation bar*/
+nav a {
+    text-decoration: none;
+    }
+
+    nav a:hover {
+    text-decoration: underline;
+    }
+
+nav a:active {
+    color: #ffffff; 
+  }
+
+ /*linkedIn link*/
+ .linkedin-link {
+    color: #0A66C2; 
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .linkedin-link:hover {
+    text-decoration: underline;
+  }
